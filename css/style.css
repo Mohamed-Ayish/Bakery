@@ -1,0 +1,418 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.top {
+    width: 100%;
+    height: 100vh;
+    background-color: chartreuse;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.top-content {
+    text-align: center;
+
+    margin-top: 200px;
+    color: #fff;
+}
+
+.top-content p {
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.top-content .p1 {
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 3px;
+
+}
+
+.top-content .p2 {
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.top-content h1 {
+    font-weight: 400;
+    font-size: 100px;
+
+    margin-bottom: 18px;
+    font-family: 'Alegreya', serif;
+}
+
+.top-content .btn {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 18px 30px;
+    margin: 0px 4px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.top-content .btn1 {
+    border: 2px solid transparent;
+    background-color: #8e7754;
+
+}
+
+.top-content .btn2 {
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+.top img {
+    padding-left: 150;
+    padding-top: 15;
+    width: 300px;
+    height: 80px;
+    position: fixed;
+
+}
+
+.clr {
+    clear: both;
+}
+
+.two {
+    width: 100%;
+
+
+
+}
+
+.twoleft {
+    width: 50%;
+    float: left;
+}
+
+.twoleft img {
+    width: 80%;
+    margin: 50px;
+}
+
+.tworight {
+    width: 50%;
+    margin-top: 50px;
+    float: left;
+}
+
+.tworight h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 18px;
+    color: black;
+    font-size: 32px;
+    padding: 25px 0px;
+
+}
+
+.tworight p {
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    color: black;
+    padding: 20px 10px 0px 0px;
+}
+
+.tworight li {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 18px;
+    font-size: 30px;
+    color: #686868;
+    padding: 20px 0px;
+
+}
+
+@media screen and (max-width:600px) {
+    .twoleft {
+        width: 100%;
+    }
+
+    .tworight {
+        width: 100%;
+    }
+
+}
+
+
+.three {
+    width: 100%;
+    background-color: aliceblue;
+
+    float: left;
+}
+
+.threeleft {
+    width: 50%;
+    padding: 90px;
+    float: left;
+    overflow: auto;
+}
+
+.threeleft h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 32px;
+    padding-bottom: 25px;
+    margin: auto;
+    color: black;
+
+}
+
+.threeleft p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #686868;
+    padding: 20px;
+}
+
+.threeright {
+    width: 50%;
+    float: left;
+}
+
+.threeright img {
+    width: 80%;
+    margin: 50px;
+}
+
+@media screen and (max-width:600px) {
+    .threeleft {
+        width: 100%;
+    }
+
+    .threeright {
+        width: 100%;
+    }
+
+
+}
+
+
+.four {
+    width: 90%;
+    margin-top: 70px;
+    margin: auto;
+    padding: 50px 0px;
+    text-align: center;
+
+
+}
+
+.four h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+}
+
+.four p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    margin: 18px 0px;
+}
+
+.four .four-content {
+    text-align: center;
+    width: 33.333%;
+    float: left;
+    padding: 40px;
+
+}
+
+.four-content img {
+    width: 100%;
+}
+
+
+
+.four-content h3 {
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.four-content p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .four .four-content {
+        width: 100%;
+    }
+}
+
+.five {
+    width: 100%;
+    background-color: rgba(202, 243, 240, 0.155);
+}
+
+.fiveleft {
+    width: 50%;
+    padding: 100px;
+    float: left;
+
+}
+
+.fiveleft h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+    padding: 15px;
+
+
+}
+
+.fiveleft p {
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+
+}
+
+.fiveleft h3 {
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+}
+
+.fiveleft li {
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+
+.fiveright {
+    width: 50%;
+    float: left;
+}
+
+.fiveright .mapouter {
+    width: 80%;
+    margin: 15px;
+}
+
+.clr {
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .fiveleft {
+        width: 100%;
+    }
+
+    .fiveright {
+        width: 100%;
+    }
+
+
+}
+
+.six {
+    width: 100%;
+    margin: auto;
+    background-color: #403d38;
+}
+
+.six h3 {
+    font-size: 19px;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding: 25px;
+}
+
+.six p {
+    padding: 0px 15px;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #969696;
+    font-size: 17px;
+    padding: 25px;
+}
+
+.six1 {
+    width: 25%;
+    float: left;
+}
+
+.six2 {
+    width: 25%;
+    float: left;
+}
+
+.six3 {
+    width: 25%;
+    float: left;
+}
+
+.six4 {
+    width: 25%;
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    float: left;
+}
+
+@media screen and (max-width:600px) {
+    .six1 {
+        width: 100%;
+    }
+
+    .six2 {
+        width: 100%;
+    }
+
+    .six3 {
+        width: 100%;
+    }
+
+    .six4 {
+        width: 100%;
+    }
+
+
+}
+
+.seven {
+    width: 100%;
+    height: 50vh;
+    background-color: #353330;
+    text-align: center;
+}
+
+.seven img {
+    margin-top: 90px;
+}
+
+.seven p {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #777;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 20px;
+}
